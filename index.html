@@ -1,0 +1,599 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Azhar Mithani</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="animate.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="wow.min.js"></script>
+              <script>
+             wow = new WOW(
+    {
+      boxClass:     'wow',      // default
+      animateClass: 'animated', // default
+      offset:       0,          // default
+      mobile:       true,       
+      live:         true        // default
+    }
+  )
+wow.init();
+              </script>
+</head>
+<style>
+body, html {
+    height: 100%;
+}
+body{ 
+  background: #36D1DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.banner-row{
+background-color:black;
+
+left:0;
+top:0;
+bottom:0;
+
+}
+.banner-text{
+
+color:white;
+opacity:1;
+
+}
+.nav-link{
+color:white;
+font-style:bold;
+}
+.rounded-circle{
+height:140px;
+width:140px;
+
+}
+.button-link{
+ border: 2px solid black;
+   border-radius:18px;
+    color: black;
+    padding: 14px 35px;
+    font-size: 16px;
+    cursor: pointer;
+	 border-color:white;
+    color: white;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	background-color:transparent;
+}
+.button-link:hover{
+background-color:white;
+color:black;
+
+}
+.sub-button{
+	border: 2px solid black;
+   border-radius:18px;
+    color: black;
+    padding: 7px 80px;
+    font-size: 15px;
+   
+	 border-color:black;
+    color: black;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:20px;
+	background-color:transparent;
+	
+	
+}
+.sub-button:hover{
+background-color:skyblue;
+color:white;
+
+}
+
+.card-button-link{
+ border: 2px solid black;
+   border-radius:18px;
+    color: black;
+    padding: 7px 10px;
+    font-size: 15px;
+   
+	 border-color:black;
+    color: black;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:transparent;
+}
+.card-button-link:hover{
+background-color:skyblue;
+color:white;
+
+}
+.jumbotron{
+background-color:transparent;
+
+}
+.footer{
+background: #ff9966;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position:absolute;
+
+}
+img {
+    border-radius: 5px 5px 0 0;
+}
+ic{
+font-size:20px;
+color:white;
+margin-left:7px;
+}
+ic:hover{
+color:black;
+}
+.skill_back{
+	background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	
+}
+.proj_back{
+	background: #108dc7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ef8e38, #108dc7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	border-radius:7px;
+	color:black;
+	
+	margin:7px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+/*
+.fadeInUp {
+  -webkit-animation: fadeInUp 1s; /* Safari 4+ */
+  -moz-animation:    fadeInUp 1s; /* Fx 5+ */
+  -o-animation:      fadeInUp 1s; /* Opera 12+ */
+  animation:         fadeInUp 1s; /* IE 10+, Fx 29+ */
+}
+.fadeInLeft{
+  -webkit-animation: fadeInLeft 1s; /* Safari 4+ */
+  -moz-animation:    fadeInLeft 1s; /* Fx 5+ */
+  -o-animation:      fadeInLeft 1s; /* Opera 12+ */
+  animation:         fadeInLeft 1s; /* IE 10+, Fx 29+ */
+}
+.fadeInRight {
+  -webkit-animation: fadeInRight 1s; /* Safari 4+ */
+  -moz-animation:   fadeInRight 1s; /* Fx 5+ */
+  -o-animation:      fadeInRight 1s; /* Opera 12+ */
+  animation:         fadeInRight 1s; /* IE 10+, Fx 29+ */
+}
+*/
+.exp-back{
+	background: #DA4453;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	
+	
+	
+}
+.edu-back{
+	
+	background: #00F260;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.cont-back{
+	background: #159957;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+</style>
+<body>
+
+<nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-top">
+  <a class="navbar-brand" href="index.php">Azhar Mithani</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#skill"><i class="fa fa-bar-chart" class="ic"></i>  Skill Set</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#proj"><i class="	fa fa-cogs" class="ic"></i>  Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#exp"><i class="fa fa fa-rocket" class="ic"></i> Experience</a>
+      </li> 
+		<li class="nav-item">
+        <a class="nav-link" href="#edu"><i class="fa fa-mortar-board" class="ic"></i> Education</a>
+      </li> 
+		<li class="nav-item">
+        <a class="nav-link" href="#cont"><i class="fa fa-paper-plane-o" class="ic"></i>  Contact Me</a>
+      </li> 	  
+    </ul>
+  </div>  
+</nav>
+<br>
+<br>
+<br>
+
+<div class="jumbotron jumbotron-fluid text-center text-white ">
+  <div class="container">
+	<img src="kd.jpg" alt="Azhar Mithani Avatar" class="img-fluid rounded-circle animated fadeInUp">
+    <h5 class="display-4 animated fadeInUp">Azhar Mithani</h5>
+	<h2 class="display-6 animated fadeInUp"><small>Full Stack Software Developer</small></h2>
+	 <p class="display-5 animated fadeInUp">Hi there,Welcome to my site! My name is Azhar Mithani. 
+	I am a 3rd year Computer Engineering Student at Pune University ,Pune. I am a software developer with experience
+	in Java,Python.
+	My skill set mainly includes Software Development,Web Development,Machine Learning and Deep Learning.</p>
+	<!--<a href="resume.pdf"><button class="button-link wow fadeInLeft"><i class="fa fa-download" class="ic"></i> Download My Resume</button></a>-->
+	 <a  href="#skill"><button class="button-link wow fadeInLeft"><i class="fa fa-bar-chart" class="ic"></i> Skill Set</button></a>
+	 <a href="#proj"><button class="button-link wow fadeInLeft"><i class="	fa fa-cogs" class="ic"></i> Projects</button></a>
+	<a href="#exp"><button class="button-link wow fadeInRight"><i class="fa fa fa-rocket" class="ic"></i> Experience</button></a>
+	<a href="#edu"><button class="button-link wow fadeInRight"><i class="fa fa-mortar-board" class="ic"></i> Education</button></a>
+	<a  href="#cont"><button class="button-link wow fadeInRight"><i class="fa fa-paper-plane-o" class="ic"></i> Contact Me</button></a>
+</div>
+</div>
+
+<!-- skills  -->
+<div class="row text-center text-white skill_back" id="skill">
+  <div class="container">
+	<br>
+	<br>
+    <h5 class="display-4 wow fadeInUp">Skill Set</h5>
+	<br>
+	<br>
+	<br>
+	
+	
+	<div class="card-deck">
+	<div class="card wow fadeInLeft">
+	<img src="prog.jpg" alt="prog" style="width:100%">
+  <div class="container">
+  
+    <h4><b>Programming</b></h4> 
+	
+    <h5>C,C++</h5> 
+	 <h5>Java 8</h5> 
+	  <h5>Python</h5> 
+	 
+  </div>
+	</div>
+	
+	
+	
+	<div class="card wow fadeInUp">
+  <img src="front_end.jpg" alt="front" style="width:100%">
+  <div class="container">
+    <h4><b>Web Development : Front End</b></h4> 
+   <h5>HTML5,CSS3</h5> 
+	 <h5>Javacript,Jquery</h5> 
+	  <h5>Bootstrap 4</h5> 
+  </div>
+	</div>
+	
+	<div class="card wow fadeInUp">
+   <img src="back-end.png" alt="back" style="width:100%">
+  <div class="container">
+    <h4><b>Web Development : Back End</b></h4> 
+   <h5>PHP,Servlet,JSP</h5> 
+	  <h5>Node js</h5> 
+	  <h5>MySQL,Oracle</h5> 
+	  <h5>MongoDB</h5> 
+	  
+  </div>
+	</div>
+	
+	<div class="card wow fadeInRight">
+   <img src="ml.png" alt="ml" style="width:100%">
+  <div class="container">
+    <h4><b>Other Skills</b></h4> 
+   <h5>Machine Learning</h5> 
+	 <h5>Deep Learning</h5> 
+	  <h5>Github</h5> 
+	  <h5>Web Scraping</h5>
+  </div>
+	</div>
+	</div>
+	
+	<br>
+	<br>
+</div>
+</div>
+
+
+
+<!-- projects  -->
+<div class="row text-center text-white proj_back" id="proj">
+  <div class="container">
+	<br>
+	<br>
+    <h5 class="display-4 wow fadeInUp" >Projects</h5>
+	<br>
+	<br>
+	<br>
+	
+	
+	<div class="card-deck">
+	<div class="card wow fadeInLeft">
+	 <img src="graph.jpg" alt="result" style="width:100%"><br><br>
+  <div class="container">
+ 
+    <h4><b>Github Graph Data</b></h4> 
+	
+    <h5><br>A live Application which can use to Draw a graph from your GitHub data</h5> 
+	 
+	  <a href="https://github.com/AzharMithani/AzharMithani.github.io" target="_blank"> <button class="card-button-link" ><i class="fa fa-paper-plane-o" class="ic-card"></i> Know More On Github</button></a>
+	 
+  </div>
+	</div>
+	
+	
+	
+	<div class="card wow fadeInUp">
+  <img src="1.jpg" alt="ss" style="width:100%">
+  <div class="container">
+    <h4><b>License Plate Detection </b></h4> 
+   <h5><br>Developed a License Plate Recognition system using Python & OpenCV </h5> 
+<!--	<h5>Technologies Used:Java,tika API,itextPDF API,Swing,JAVA Mail</h5> -->
+	  <a href="https://github.com/AzharMithani/License-Plate-Detection" target="_blank"><button class="card-button-link" ><i class="fa fa-paper-plane-o" class="ic-card"></i> Know More On Github</button></a>
+  </div>
+	</div>
+	
+	<div class="card wow fadeInRight">
+   <img src="webanal.jpg" alt="back" style="width:100%"><br>
+  <div class="container"> <br>
+    <h4><b>Website Analytics</b></h4>
+   <h5><br>An application developed in R which is useful for analyzing data from a given website <h5> 
+
+	   <a href="https://github.com/AzharMithani/My-Website-Analytics" target="_blank"><button class="card-button-link" ><i class="fa fa-paper-plane-o" class="ic-card"></i> Know More On Github</button></a>
+  </div>
+	</div>
+	
+	
+	</div>
+	
+	<br>
+	<br>
+</div>
+</div>
+
+<!-- Experience  -->
+<div class="row text-center text-white exp-back" id="exp">
+  <div class="container">
+	<br>
+	<br>
+    <h5 class="display-4 wow fadeInLeft">Experience</h5>
+	<br>
+	<br>
+	<br>
+	
+	
+	<div class="card-deck">
+	<div class="card wow fadeInRight">
+	 <img src="download.png" alt="riskpro" style="width:100%"><br><br><br><br>
+  <div class="container">
+ 
+    <h4><b><br>Research Assistant at AISSMS IOIT</b></h4> 
+	<br>
+    <p>I have a batch of 30 students at C.R.I.E.D(Center for Research, Incubation and Entrepreneurship Development) in the field of Machine Learning and Data Science, I have lead the team in various different projects.</p> 
+	
+	<h5>June,2017-Present</h5> 
+	  
+	 
+  </div>
+	</div>
+	
+	
+	
+	<div class="card wow fadeInRight">
+  <img src="intern.jpg" alt="ss" style="width:100%;height:50%;">
+  <div class="container">
+    <h4><b><br>Internshala Student Partner</b></h4> 
+   <p>I ran a marketing campaign for internshala in my campus and helped various students to get their desired digital course which would ultimately help them to get paid internships. I also made 100+ students sign up on their online platform.  </p> 
+
+<br>
+<h5>April,2018-Jun,2018</h5>
+	
+	  
+  </div>
+	</div>
+	
+	
+	
+	
+	</div>
+	
+	<br>
+	<br>
+</div>
+</div>
+
+<!-- Education  -->
+<div class="row text-center text-white edu-back" id="edu">
+  <div class="container">
+	<br>
+	<br>
+    <h5 class="display-4 wow fadeInRight">Education</h5>
+	<br>
+	<br>
+	<br>
+	
+	
+	<div class="card-deck">
+	<div class="card wow fadeInLeft">
+	 <i class="fa fa-institution" style="font-size:68px;padding:7px;"></i>
+	
+  <div class="container">
+	 <h2>AISSMS IOIT,Pune</h2>
+   <h4><b>BE Computer Engineering</b></h4>
+	
+    <p>2015-2019</p> 
+	<h5 style="padding-bottom:7px;">Aggregate SGPA : 7.5</h5> 
+	 
+	  
+	 
+  </div>
+	</div>
+	
+	
+	
+	<div class="card wow fadeInLeft">
+	 <i class="fa fa-institution" style="font-size:68px;padding:7px;"></i>
+	
+  <div class="container">
+	 <h2>Nalanda Academy, Raj</h2>
+   <h4><b>HSC,Science in C.B.S.E Board</b></h4>
+	
+    <p>2013-2015</p> 
+	<h5>Percentage : 74.32%</h5> 
+  </div>
+	</div>
+	<div class="card wow fadeInLeft">
+	 <i class="fa fa-institution" style="font-size:68px;padding:7px;"></i>
+	
+  <div class="container">
+	 <h2>Sheth D.R. Umrigar School</h2>
+   <h4><b>SSC</b></h4>
+	
+    <p>2003-2013</p> 
+	<h5 style="padding-bottom:7px;">Percentage : 79.60%</h5> 
+  </div>
+	</div>
+	
+	
+	
+	
+	</div>
+	
+	<br>
+	<br>
+</div>
+</div>
+
+<!-- Contact  -->
+<div class="row text-center text-white cont-back" id="cont">
+  <div class="container">
+	<br>
+	<br>
+    <h5 class="display-4 wow fadeInUp">Contact Me</h5>
+	<br>
+	
+</div>
+<div class="container">
+<div class="offset-sm-3 col-sm-6 text-center">
+<form method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSfCKsy7hdHu6XTMAHlIlZaKv67Y0tiU1bS0jg48yWoboP0S6g/formResponse" >
+  <div class="form-group wow fadeInUp">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" name="entry.2067597650" required>
+  </div>
+  <div class="form-group wow fadeInUp">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" name="entry.1668062267" required>
+  </div>
+	<div class="form-group wow fadeInUp">
+    <label for="msg">Message</label>
+    <textarea class="form-control" id="msg" rows="6" name="entry.1739611289" required></textarea>
+  </div>
+  <button type="submit" class="sub-button wow fadeInUp">Submit</button>
+</form>
+</div>
+</div>
+</div>
+
+
+
+<!--footer -->
+ 
+<div class="container-fluid footer text-center text-white sticky-bottom ">
+
+
+<a href="https://in.linkedin.com/in/azhar-mithani" target="_blank" ><i class="fa fa-linkedin" style="font-size:48px;color:white;padding:17px;"></i></a>
+<a href="https://www.quora.com/profile/Azhar-Mithani" target="_blank"><i class="fa fa-quora" style="font-size:48px;color:white;padding:17px;"></i></a>
+<a href="https://www.facebook.com/azhar.mithani2" target="_blank"><i class="fa fa-facebook" style="font-size:48px;color:white;padding:17px;"></i></a>
+<a href="https://github.com/AzharMithani" target="_blank"><i class="fa fa-github" style="font-size:48px;color:white;padding:17px;"></i></a>
+
+<br>
+<i class="fa fa-envelope" style="font-size:20px;color:white;padding:7px;"></i>
+azharmithani07@gmail.com <br>
+
+
+<h5>Azhar Mithani's Production &copy 2017</h5>
+
+</div>
+
+
+<!--
+  <div class="container text-white text-center pt-5">
+  <div class="banner-row">
+	<div class="banner-text">
+    <h5 class="display-4">Azhar Mithani</h5>
+	<h2 class="display-5"><small>Full Stack Developer</small></h2>
+    <p class="display-5">Hi there,Welcome to my site!My name is Azhar Mithani. 
+	I am a 3rd year Computer Engineering Student at MMCOE ,Pune. I am a software developer with experience
+	in Java,Python and many more languages.
+	My skill set mainly includes Software Development,Web Development,Machine Learning and Deep Learning.</p>
+	<button type="button" class="btn btn-outline-primary">Primary</button>
+	
+	<button type="button" class="btn btn-outline-primary">Primary</button>
+  </div>
+	</div>
+</div>
+
+
+
+<div class="container-fluid ">
+<div class="col-sm-6" style="background-color:black">
+ 
+	<div class="banner-text">
+    <h5 class="display-4">Azhar Mithani</h5>
+	<h2 class="display-5"><small>Full Stack Developer</small></h2>
+    <p class="display-5">Hi there,Welcome to my site!My name is Azhar Mithani. 
+	I am a 3rd year Computer Engineering Student at MMCOE ,Pune. I am a software developer with experience
+	in Java,Python and many more languages.
+	My skill set mainly includes Software Development,Web Development,Machine Learning and Deep Learning.</p>
+	<button type="button" class="btn btn-outline-primary">Primary</button>
+	
+	<button type="button" class="btn btn-outline-primary">Primary</button>
+  
+	</div>
+</div>
+<div class="col-sm-6">
+
+
+</div>
+</div>
+-->
+
+</body>
+</html>
