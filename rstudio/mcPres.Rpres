@@ -22,7 +22,7 @@ The app developed for the first part of the assignment is avalilable at:
 https://azharmithani.shinyapps.io/FinalAssign/
 
 Source code for ui.R and server.R files are available on the GitHub:
-https://github.com
+https://github.com/themithani/themithani.github.io/tree/master/rstudio
 
 ========================================================
 Select the best car for your trip App

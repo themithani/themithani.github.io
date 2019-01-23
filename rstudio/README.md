@@ -9,7 +9,7 @@ reproducible pitch presentation about the application.
 
 The app developed for the first part of the assignment is avalilable at: https://azharmithani.shinyapps.io/FinalAssign/
 
-The presentation is available at: themithani.github.io
+The presentation is available at: https://themithani.github.io/rstudio/mcPres-rpubs.htm
 
-Files for the presentation are avalilable on the GitHub: https://github.com 
+
 
